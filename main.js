@@ -53,8 +53,8 @@ typeof(2 != 1)
 
 // Задача 2
 console.log('Задача 2');
-var a = 2;
-var b = 3;
+let a = 2;
+let b = 3;
 let P = a+b+a+b;
 let S = a*b;
 console.log(`${a} ${b}`);
