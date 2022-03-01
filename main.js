@@ -9,7 +9,7 @@ typeof(1.2)
 
 typeof(NaN)
 // Предположение: number
-// Фактический:
+// Фактический: number
 
 typeof("Hello World")
 // Предположение: string
@@ -78,8 +78,8 @@ alert((y % 4 == 0) && (y % 100 != 0) ? "true" : "false");
 
 // Задача 5
 console.log('Задача 5');
-a = prompt("число");
-b = prompt("число");
+a = Number(prompt("число"));
+b = Number(prompt("число"));
 if(a == 10 || b == 10 || a+b == 10){
     console.log("истина");
 }
