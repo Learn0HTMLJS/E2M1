@@ -74,7 +74,7 @@ console.log(`${f}°F соответствует ${c}°C`);
 // Задача 4
 console.log('Задача 4');
 let y = prompt("Введите год");
-alert(y % 4 == 0 ? "true" : "false");
+alert((y % 4 == 0) && (y % 100 != 0) ? "true" : "false");
 
 // Задача 5
 console.log('Задача 5');
